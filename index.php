@@ -126,7 +126,67 @@
     <!--------------DONATORI CORAK--->
 
     <!--------------FOOTER CIZMAR--->
+    <section class="footer-main">
+        <div class="footer-top">
+            <div class="footer-container">
 
+                <div class="footer-div">
+                    <br><br><br>
+                    <h1 class="footer-h1">O NAMA</h1>
+                    <img src="a.png" alt="about us image" class="footer-about-img">
+                    <p class="footer-about">Lorem ipsum dolor sit amet</p>
+                    <a class="footer-more" href="#">Vise o nama...</a>
+                </div>
+
+                <div class="footer-div">
+                    <br><br><br>
+                    <h1 class="footer-h1"> GALERIJA</h1><br>
+                    <a class="footer-gallery-link" href="#">
+                    <div class="footer-gallery-main">
+                        <img src="g1.jpg" alt="gallery image 1" class="footer-gallery-img1">
+                        <img src="g2.jpg" alt="gallery image 2" class="footer-gallery-img2">
+                        <img src="g3.jpg" alt="gallery image 3" class="footer-gallery-img3">
+                        <img src="g4.jfif" alt="gallery image 4" class="footer-gallery-img4">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="footer-div">
+                    <br><br><br>
+                    <h1 class="footer-h1">LINKOVI</h1><br>
+                    <div class="footer-links">
+                        <a class="footer-link" href="#">Facebook</a><br><br>
+                        <a class="footer-link" href="#">Instagram</a><br><br>
+                        <a class="footer-link" href="#">Youtube</a><br><br>
+                        <a class="footer-link" href="#">Twitch</a><br><br>
+                    </div>
+                </div>
+
+                <div class="footer-div">
+                    <br><br><br>
+                    <h1 class="footer-h1">VIDEO KLIPOVI</h1><br>
+                    <div class="footer-video-player"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <div class="footer-copyright">© 2021 BU-RP All rights reserved.</div>
+                <div class="footer-navbar">
+                    <ul class="footer-navbar-ul">
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Pocetna</a></li>
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">O nama</a></li>
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Galerija</a></li>
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Donator paketi</a></li>
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Novosti</a></li>
+                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-----------JavaScript pozivanje ksripti--->
     <script src="js/jquery-3.3.1.min.js"></script>
