@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+}
+
+.footer-h1 {
+	color: white;
+	font-size: 20px;
+}
+
+.footer-main {
+	position: absolute;
+	width: 100%;	
+	bottom: 0;
+}
+
+.footer-container {
+	height: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+}
+
+.footer-top { 
+	background-image: url("bg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footer-div {
+	height: 366px;
+	width: 300px;
+}
+
+.footer-about {
+ 	color: #ccc;
+}
+
+.footer-about-img {
+	width: 250px;
+}
+
+.footer-more {
+	text-decoration: none !important;
+	color: #ccc;
+}
+
+.footer-more:hover {
+ 	color: #25c2f5;
+}
+
+.footer-gallery-main {
+	width: 300px;
+}
+
+.footer-gallery-link {
+	text-decoration: none;
+}
+
+.footer-gallery-img1 {
+	width: 130px;
+	margin: 5;
+	top: 0;
+	left: 0;
+}
+.footer-gallery-img2 {
+	width: 130px;
+	margin: 5;
+	top: 0;
+	right: 0;
+}
+.footer-gallery-img3 {
+	width: 130px;
+	margin: 5;
+	bottom: 0;
+}
+.footer-gallery-img4 {
+	width: 130px;
+	margin: 5;
+	bottom: 0;
+}
+	
+.footer-link {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 18px;
+	margin-bottom: 30px !important;
+}
+
+.footer-link:hover {
+ 	color: #25c2f5;
+}
+
+.footer-video-player {}
+
+.footer-bottom {
+	background-color: #2a2a2a;
+	height: 80px;
+}
+
+.footer-copyright {
+	color: #25c2f5;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.footer-navbar {
+	margin-left: 350px;
+	margin-top: auto;
+  	margin-bottom: auto;
+}
+
+.footer-nav-link {
+	text-decoration: none !important;
+	color: #25c2f5;
+	font-size: 20px;
+}
+
+.footer-navbar-ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+  	padding: 0;
+}
+
+.footer-navbar-li {
+	display: inline;
+	margin: 10px;
+}
+
+.footer-nav-link:hover {
+	color: #ccc;
+}
+
+/*
+siva boja: #2a2a2a
+plava: #25c2f5
+*/
