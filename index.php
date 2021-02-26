@@ -145,10 +145,10 @@
                     <h1 class="footer-h1"> GALERIJA</h1><br>
                     <a class="footer-gallery-link" href="#">
                     <div class="footer-gallery-main">
-                        <img src="g1.jpg" alt="gallery image 1" class="footer-gallery-img1">
-                        <img src="g2.jpg" alt="gallery image 2" class="footer-gallery-img2">
-                        <img src="g3.jpg" alt="gallery image 3" class="footer-gallery-img3">
-                        <img src="g4.jfif" alt="gallery image 4" class="footer-gallery-img4">
+                        <img src="images/footer1.jpg" alt="gallery image 1" class="footer-gallery-img1">
+                        <img src="images/footer2.jpg" alt="gallery image 2" class="footer-gallery-img2">
+                        <img src="images/footer3.jpg" alt="gallery image 3" class="footer-gallery-img3">
+                        <img src="images/footer4.jfif" alt="gallery image 4" class="footer-gallery-img4">
                     </div>
                     </a>
                 </div>
