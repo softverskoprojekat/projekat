@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="css/header_magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/header_slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/header_style.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="footer_style.css">
 </head>
 <body>
 	<!--------------HEADER SAMARDZIC--->
