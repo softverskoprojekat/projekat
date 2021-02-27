@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +26,7 @@
     <link rel="stylesheet" href="css/header_slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/header_style.css" type="text/css">
 
-    <link rel="stylesheet" type="text/css" href="footer_style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer_style.css">
 </head>
 <body>
 	<!--------------HEADER SAMARDZIC--->
@@ -59,9 +56,9 @@
                     </div>
                     <div class="col-lg-6 col-md-4">
                         <div class="ht-social">
-                          <a href="#"><img src="instagram-brands.png"></a>
-                          <a href="#"><img src="facebook-square-brands.png"></a>
-                          <a href="#"><img src="discord-brands.png"></a>
+                          <a href="#"><img src=" images/icons/instagram-brands.png"></a>
+                          <a href="#"><img src="images/icons/facebook-square-brands.png"></a>
+                          <a href="#"><img src="images/icons/discord-brands.png"></a>
                            
                             
                         </div>
@@ -82,7 +79,7 @@
             
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="banner" style="background-image: url(background.png);"></div>
+                    <div class="banner" style="background-image: url(images/background.png);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated bounceInRight" style="animation-delay: 1s">STARTUJTE VAŠU IGRU</h2>
                         <h3 class="animated bounceInLeft" style="animation-delay: 2s">Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!</h3>
@@ -91,7 +88,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="banner" style="background-image: url(background.png);"></div>
+                    <div class="banner" style="background-image: url(images/background.png);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated slideInDown" style="animation-delay: 1s">STARTUJTE VAŠU IGRU</h2>
                         <h3 class="animated fadeInUp" style="animation-delay: 2s">Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!</h3>
@@ -100,7 +97,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="banner" style="background-image: url(background.png);"></div>
+                    <div class="banner" style="background-image: url(images/background.png);"></div>
                     <div class="carousel-caption">
                         <h2 class="animated zoomIn" style="animation-delay: 1s">STARTUJTE VAŠU IGRU</span></h2>
                         <h3 class="animated fadeInLeft" style="animation-delay: 2s">Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!</h3>
@@ -124,7 +121,6 @@
     </header>
        
     <!--------------ABOUT US NEMANJA--->
-
     <!--------------DONATORI CORAK--->
 
     <!--------------FOOTER CIZMAR--->
@@ -190,7 +186,7 @@
         </div>
     </section>
 
-    <!-----------JavaScript pozivanje ksripti--->
+    <!-----------JavaScript pozivanje skripti--->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
