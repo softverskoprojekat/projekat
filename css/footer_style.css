@@ -8,7 +8,7 @@ body {
 }
 
 .footer-main {
-	position: absolute;
+	position: relative;
 	width: 100%;	
 	bottom: 0;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .footer-top { 
-	background-image: url("bg.png");
+	background-image: url("images/bg.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
