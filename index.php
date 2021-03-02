@@ -52,9 +52,9 @@
                     </div>
                     <div class="col-lg-6 col-md-4">
                         <div class="ht-social">
-                          <a href="#"><img src="instagram-brands.png"></a>
-                          <a href="#"><img src="facebook-square-brands.png"></a>
-                          <a href="#"><img src="discord-brands.png"></a>
+                          <a href="#"><img src="images/instagram-brands.png"></a>
+                          <a href="#"><img src="images/facebook-square-brands.png"></a>
+                          <a href="#"><img src="images/discord-brands.png"></a>
                            
                             
                         </div>
@@ -85,7 +85,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="background.png" class="d-block w-100" alt="pozadinska">
+              <img src="images/header_bg.png" class="d-block w-100" alt="pozadinska">
               <div class="carousel-caption d-none d-md-block">
                 <h5>STARTUJTE VAŠU IGRU!</h5>
                 <p>Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!</p>
@@ -98,7 +98,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="background.png" class="d-block w-100" alt="pozadinska">
+              <img src="images/header_bg.png" class="d-block w-100" alt="pozadinska">
               <div class="carousel-caption d-none d-md-block">
                 <h5>STARTUJTE VAŠU IGRU!</h5>
                 <p>Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!</p>
@@ -111,7 +111,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="background.png" class="d-block w-100" alt="pozadinska">
+              <img src="images/header_bg.png" class="d-block w-100" alt="pozadinska">
               <div class="carousel-caption d-none d-md-block">
                 <h5>STARTUJTE VAŠU IGRU!</h5>
                 <p>Zaigrajte sa vašim prijateljima, posetite našu zajednicu i pridružite nam se na potpunu novom gamemodu. Kod BU:RP zajednice ne postoji limit i prepuštamo vam totalnu kontrolu u igri. Jedina prepreka je vaša mašta!.</p>
