@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/header_slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/header_style.css" type="text/css">
     
-    <link rel="stylesheet" type="text/css" href="footer_style.css">
+    <link rel="stylesheet" href="css/donatorfooter.css" type="text/css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/aboutus_style.css">
@@ -202,9 +202,120 @@
       </div>
     </section>
 
-    <!--------------DONATORI CORAK--->
+    <!--------------DONATORI CIZMAR--->
+	
+<section class="donator-main">
+      <img
+        class="donator-paket-img"
+        alt="donator paketi slika"
+        src="images/heading.png"
+      />
+      <div class="donator-container">
+        <div class="donator-paketi">
+          <div class="donator-paket">
+            <div class="donator-paket-top">
+              <img alt="donator bronze" src="images/bronze.png" />
+            </div>
+            <div class="donator-paket-bottom">
+              <p class="donator-paket-text">
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. EIUS
+                EXCEPTURI VOLUPTAS MAXIME
+              </p>
+              <button class="donator-button">KUPI PAKET</button>
+            </div>
+          </div>
 
+          <div class="donator-paket">
+            <div class="donator-paket-top">
+              <img alt="donator silver" src="images/silver.png" />
+            </div>
+            <div class="donator-paket-bottom">
+              <p class="donator-paket-text">
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. EIUS
+                EXCEPTURI VOLUPTAS MAXIME
+              </p>
+              <button class="donator-button">KUPI PAKET</button>
+            </div>
+          </div>
+
+          <div class="donator-paket">
+            <div class="donator-paket-top">
+              <img alt="donator gold" src="images/gold.png" />
+            </div>
+            <div class="donator-paket-bottom">
+              <p class="donator-paket-text">
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. EIUS
+                EXCEPTURI VOLUPTAS MAXIME
+              </p>
+              <button class="donator-button">KUPI PAKET</button>
+            </div>
+          </div>
+
+          <div class="donator-paket">
+            <div class="donator-paket-top">
+              <img alt="donator vip" src="images/vip.png" />
+            </div>
+            <div class="donator-paket-bottom">
+              <p class="donator-paket-text">
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. EIUS
+                EXCEPTURI VOLUPTAS MAXIME
+              </p>
+              <button class="donator-button">KUPI PAKET</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<!--------------STATISTIKA CIZMAR--->
+
+    <section class="statistika-main">
+      <div class="statistika-container">
+        <div class="statistika-element">
+          <div class="statistika-img">
+            <img src="images/person-bounding-box.png" />
+          </div>
+          <div class="statistika-ime">KORISNICI</div>
+          <div class="statistika-broj">2302</div>
+          <div class="statistika-opis">REGISTROVANIH KORISNIKA</div>
+        </div>
+        <div class="statistika-element">
+          <div class="statistika-img">
+            <img src="images/person-x-fill.png" />
+          </div>
+          <div class="statistika-ime">BANOVANI</div>
+          <div class="statistika-broj">117</div>
+          <div class="statistika-opis">BANOVANIH KORISNIKA</div>
+        </div>
+        <div class="statistika-element">
+          <div class="statistika-img">
+            <img src="images/house-fill.png" />
+          </div>
+          <div class="statistika-ime">KUĆE</div>
+          <div class="statistika-broj">880</div>
+          <div class="statistika-opis">KREIRANIH KUĆA</div>
+        </div>
+        <div class="statistika-element">
+          <div class="statistika-img">
+            <img src="images/briefcase-fill.png" />
+          </div>
+          <div class="statistika-ime">BIZNISI</div>
+          <div class="statistika-broj">1180</div>
+          <div class="statistika-opis">KREIRANIH BIZNISA</div>
+        </div>
+        <div class="statistika-element">
+          <div class="statistika-img">
+            <img src="images//car-solid.png" />
+          </div>
+          <div class="statistika-ime">VOZILA</div>
+          <div class="statistika-broj">1134</div>
+          <div class="statistika-opis">KUPLJENIH VOZILA</div>
+        </div>
+      </div>
+    </section>
+	
     <!--------------FOOTER CIZMAR--->
+	
     <section class="footer-main">
         <div class="footer-top">
             <div class="footer-container">
