@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+}
+
+.footer-h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-main {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-container {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.footer-top {
+  background-image: url("images/background_footer.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.footer-div {
+  height: 366px;
+  width: 300px;
+}
+
+.footer-about {
+  color: #ccc;
+}
+
+.footer-about-img {
+  width: 250px;
+}
+
+.footer-more {
+  text-decoration: none !important;
+  color: #ccc;
+}
+
+.footer-more:hover {
+  color: #25c2f5;
+}
+
+.footer-gallery-main {
+  width: 300px;
+}
+
+.footer-gallery-link {
+  text-decoration: none;
+}
+
+.footer-gallery-img1 {
+  width: 130px;
+  margin: 5;
+  top: 0;
+  left: 0;
+}
+.footer-gallery-img2 {
+  width: 130px;
+  margin: 5;
+  top: 0;
+  right: 0;
+}
+.footer-gallery-img3 {
+  width: 130px;
+  margin: 5;
+  bottom: 0;
+}
+.footer-gallery-img4 {
+  width: 130px;
+  margin: 5;
+  bottom: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 30px !important;
+}
+
+.footer-link:hover {
+  color: #25c2f5;
+}
+
+.footer-video-player {
+}
+
+.footer-bottom {
+  background-color: #2a2a2a;
+  height: 80px;
+}
+
+.footer-copyright {
+  color: #25c2f5;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-navbar {
+  margin-left: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-nav-link {
+  text-decoration: none !important;
+  color: #25c2f5;
+  font-size: 20px;
+}
+
+.footer-navbar-ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navbar-li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer-nav-link:hover {
+  color: #ccc;
+}
+
+.donator-main {
+  height: 1050px;
+  background-image: url("images/background_donator.jpg");
+}
+
+.donator-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.donator-paket-img {
+  float: right;
+}
+
+.donator-paketi {
+  display: flex;
+}
+
+.donator-paket {
+  margin: 20px;
+  margin-top: 200px;
+}
+
+.donator-paket-top {
+  background-color: #1a1a1a;
+}
+
+.donator-paket-bottom {
+  background-color: #2a2a2a;
+  width: 273px;
+  height: 580px;
+}
+
+.donator-paket-text {
+  color: white;
+  font-size: 25px;
+  margin: 0;
+  padding: 30px;
+  line-height: 50px;
+}
+
+.donator-button {
+  background-color: #ffc70e;
+  color: #2a2a2a;
+  width: 213px;
+  height: 60px;
+  margin: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.statistika-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.statistika-main {
+  height: 500px;
+  background-image: url("images/background_stats.jpg");
+}
+
+.statistika-element {
+  width: 200px;
+  height: 300px;
+  background-color: #2a2a2a;
+  margin: 30px;
+  border-radius: 12px;
+  margin-top: 100px;
+}
+
+.statistika-img {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.statistika-ime {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.statistika-broj {
+  color: #25c2f5;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.statistika-opis {
+  color: white;
+  text-align: center;
+}
+
+/*
+siva: #2a2a2a
+plava: #25c2f5
+zuta: #ffc70e
+*/
