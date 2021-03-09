@@ -323,7 +323,7 @@
                 <div class="footer-div">
                     <br><br><br>
                     <h1 class="footer-h1">O NAMA</h1>
-                    <img src="a.png" alt="about us image" class="footer-about-img">
+                    <img src="badge.png" alt="about us image" class="footer-about-img">
                     <p class="footer-about">Lorem ipsum dolor sit amet</p>
                     <a class="footer-more" href="#">Vise o nama...</a>
                 </div>
