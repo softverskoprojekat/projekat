@@ -21,7 +21,7 @@ body {
 }
 
 .footer-top {
-  background-image: url("images/background_footer.png");
+  background-image: url("../images/background_footer.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -134,7 +134,7 @@ body {
 
 .donator-main {
   height: 1050px;
-  background-image: url("images/background_donator.jpg");
+  background-image: url("../images/background_donator.jpg");
 }
 
 .donator-container {
@@ -194,7 +194,7 @@ body {
 
 .statistika-main {
   height: 500px;
-  background-image: url("images/background_stats.jpg");
+  background-image: url("../images/background_stats.jpg");
 }
 
 .statistika-element {
