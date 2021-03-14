@@ -15,14 +15,15 @@ body {
 
 .footer-container {
   height: 100%;
-  max-width: 1200px;
   margin: auto;
   display: flex;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .footer-top {
   background-image: url("../images/background_footer.png");
-  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -138,8 +139,10 @@ body {
 }
 
 .donator-container {
-  max-width: 1200px;
   margin: auto;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .donator-paket-img {
@@ -148,6 +151,9 @@ body {
 
 .donator-paketi {
   display: flex;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .donator-paket {
@@ -188,8 +194,10 @@ body {
 
 .statistika-container {
   display: flex;
-  max-width: 1200px;
   margin: auto;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .statistika-main {
@@ -227,4 +235,279 @@ body {
 .statistika-opis {
   color: white;
   text-align: center;
+}
+
+@media (max-width: 1600px) {
+  .donator-paket-img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .donator-paket-top {
+    width: 100%;
+  }
+  .donator-bronze,
+  .donator-silver,
+  .donator-gold,
+  .donator-vip {
+    width: 100%;
+  }
+
+  .donator-paket-text {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .donator-paket-bottom {
+    width: 100%;
+    height: 500px;
+  }
+
+  .donator-button {
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    font-size: 15px;
+  }
+
+  .statistika-element {
+    width: 150px;
+    height: 250px;
+  }
+
+  .statistika-ime {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .statistika-opis {
+    font-size: 15px;
+  }
+
+  .statistika-broj {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .statistika-img {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .footer-nav-link {
+    font-size: 15px;
+  }
+  .footer-copyright {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .statistika-element {
+    width: 100px;
+    height: 200px;
+  }
+
+  .statistika-ime {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .statistika-opis {
+    font-size: 12px;
+  }
+
+  .statistika-broj {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .statistika-img {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  .donator-paket-text {
+    font-size: 12px;
+    line-height: 30px;
+    padding: 20px;
+  }
+
+  .donator-paket-bottom {
+    width: 100%;
+    height: 400px;
+  }
+
+  .donator-button {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    font-size: 12px;
+  }
+
+  .statistika-main {
+    height: 400px;
+  }
+
+  .donator-main {
+    height: 850px;
+  }
+
+  .footer-div {
+    width: 200px;
+  }
+
+  .footer-gallery-main {
+    width: 200px;
+  }
+
+  .footer-gallery-img1,
+  .footer-gallery-img2,
+  .footer-gallery-img3,
+  .footer-gallery-img4 {
+    width: 80px;
+  }
+
+  .footer-about-img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 750px) {
+  .statistika-element {
+    margin: 5px;
+    margin-top: 100px;
+  }
+
+  .donator-paket-text {
+    font-size: 10px;
+    line-height: 30px;
+    padding: 20px;
+  }
+
+  .donator-main {
+    height: 550px;
+  }
+
+  .donator-paket-bottom {
+    height: 300px;
+  }
+
+  .donator-paket {
+    margin: 10px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-div {
+    width: 120px;
+  }
+  .footer-about-img {
+    width: 70px;
+  }
+
+  .footer-about,
+  .footer-more {
+    font-size: 12px;
+  }
+
+  .footer-h1 {
+    font-size: 15px;
+  }
+
+  .footer-gallery-main {
+    width: 120px;
+  }
+  .footer-gallery-img1,
+  .footer-gallery-img2,
+  .footer-gallery-img3,
+  .footer-gallery-img4 {
+    width: 50px;
+  }
+
+  .footer-top {
+    height: 300px;
+  }
+
+  .footer-link {
+    font-size: 12px;
+  }
+
+  .donator-paket {
+    margin: 5px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .donator-main {
+    height: 1100px;
+  }
+  .donator-paketi {
+    display: inline-block;
+    height: auto;
+  }
+  .donator-paket-bottom {
+    height: 150px;
+  }
+
+  .donator-paket-text {
+    height: 90px;
+    line-height: 15px;
+    padding: 5px;
+  }
+
+  .donator-button {
+    margin-top: 0;
+  }
+  .donator-paket {
+    margin-top: 10px;
+  }
+
+  .statistika-main {
+    height: 850px;
+  }
+
+  .statistika-container {
+    display: inline-block;
+  }
+  .statistika-element {
+    margin-top: 15px;
+    height: 150px;
+  }
+  .statistika-ime,
+  .statistika-opis {
+    font-size: 10px;
+  }
+  .statistika-broj {
+    font-size: 20px;
+  }
+  .statistika-img {
+    height: 50px;
+    margin: 5px;
+    margin-left: 20px;
+  }
+
+  .statistika-slika {
+    height: 50px;
+  }
+  .statistika-container {
+    margin-left: 38%;
+  }
+
+  .footer-navbar {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .statistika-container {
+    margin-left: 35%;
+  }
 }
