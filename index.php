@@ -214,7 +214,11 @@
         <div class="donator-paketi">
           <div class="donator-paket">
             <div class="donator-paket-top">
-              <img alt="donator bronze" src="images/bronze.png" />
+              <img
+                class="donator-bronze"
+                alt="donator bronze"
+                src="images/bronze.png"
+              />
             </div>
             <div class="donator-paket-bottom">
               <p class="donator-paket-text">
@@ -227,7 +231,11 @@
 
           <div class="donator-paket">
             <div class="donator-paket-top">
-              <img alt="donator silver" src="images/silver.png" />
+              <img
+                class="donator-silver"
+                alt="donator silver"
+                src="images/silver.png"
+              />
             </div>
             <div class="donator-paket-bottom">
               <p class="donator-paket-text">
@@ -240,7 +248,11 @@
 
           <div class="donator-paket">
             <div class="donator-paket-top">
-              <img alt="donator gold" src="images/gold.png" />
+              <img
+                class="donator-gold"
+                alt="donator gold"
+                src="images/gold.png"
+              />
             </div>
             <div class="donator-paket-bottom">
               <p class="donator-paket-text">
@@ -253,7 +265,7 @@
 
           <div class="donator-paket">
             <div class="donator-paket-top">
-              <img alt="donator vip" src="images/vip.png" />
+              <img class="donator-vip" alt="donator vip" src="images/vip.png" />
             </div>
             <div class="donator-paket-bottom">
               <p class="donator-paket-text">
@@ -273,7 +285,10 @@
       <div class="statistika-container">
         <div class="statistika-element">
           <div class="statistika-img">
-            <img src="images/person-bounding-box.png" />
+            <img
+              class="statistika-slika"
+              src="images/person-bounding-box.png"
+            />
           </div>
           <div class="statistika-ime">KORISNICI</div>
           <div class="statistika-broj">2302</div>
@@ -281,7 +296,7 @@
         </div>
         <div class="statistika-element">
           <div class="statistika-img">
-            <img src="images/person-x-fill.png" />
+            <img class="statistika-slika" src="images/person-x-fill.png" />
           </div>
           <div class="statistika-ime">BANOVANI</div>
           <div class="statistika-broj">117</div>
@@ -289,7 +304,7 @@
         </div>
         <div class="statistika-element">
           <div class="statistika-img">
-            <img src="images/house-fill.png" />
+            <img class="statistika-slika" src="images/house-fill.png" />
           </div>
           <div class="statistika-ime">KUĆE</div>
           <div class="statistika-broj">880</div>
@@ -297,7 +312,7 @@
         </div>
         <div class="statistika-element">
           <div class="statistika-img">
-            <img src="images/briefcase-fill.png" />
+            <img class="statistika-slika" src="images/briefcase-fill.png" />
           </div>
           <div class="statistika-ime">BIZNISI</div>
           <div class="statistika-broj">1180</div>
@@ -305,7 +320,7 @@
         </div>
         <div class="statistika-element">
           <div class="statistika-img">
-            <img src="images//car-solid.png" />
+            <img class="statistika-slika" src="images//car-solid.png" />
           </div>
           <div class="statistika-ime">VOZILA</div>
           <div class="statistika-broj">1134</div>
@@ -318,64 +333,97 @@
 	
     <section class="footer-main">
         <div class="footer-top">
-            <div class="footer-container">
+        <div class="footer-container">
+          <div class="footer-div">
+            <br /><br /><br />
+            <h1 class="footer-h1">O NAMA</h1>
+            <img
+              src="images/badge.png"
+              alt="about us image"
+              class="footer-about-img"
+            />
+            <p class="footer-about">Lorem ipsum dolor sit amet</p>
+            <a class="footer-more" href="#">Vise o nama...</a>
+          </div>
 
-                <div class="footer-div">
-                    <br><br><br>
-                    <h1 class="footer-h1">O NAMA</h1>
-                    <img src="badge.png" alt="about us image" class="footer-about-img">
-                    <p class="footer-about">Lorem ipsum dolor sit amet</p>
-                    <a class="footer-more" href="#">Vise o nama...</a>
-                </div>
+          <div class="footer-div">
+            <br /><br /><br />
+            <h1 class="footer-h1">GALERIJA</h1>
+            <br />
+            <a class="footer-gallery-link" href="#">
+              <div class="footer-gallery-main">
+                <img
+                  src="images/g1.jpg"
+                  alt="gallery image 1"
+                  class="footer-gallery-img1"
+                />
+                <img
+                  src="images/g2.jpg"
+                  alt="gallery image 2"
+                  class="footer-gallery-img2"
+                />
+                <img
+                  src="images/g3.jpg"
+                  alt="gallery image 3"
+                  class="footer-gallery-img3"
+                />
+                <img
+                  src="images/g4.jfif"
+                  alt="gallery image 4"
+                  class="footer-gallery-img4"
+                />
+              </div>
+            </a>
+          </div>
 
-                <div class="footer-div">
-                    <br><br><br>
-                    <h1 class="footer-h1"> GALERIJA</h1><br>
-                    <a class="footer-gallery-link" href="#">
-                    <div class="footer-gallery-main">
-                        <img src="images/footer1.jpg" alt="gallery image 1" class="footer-gallery-img1">
-                        <img src="images/footer2.jpg" alt="gallery image 2" class="footer-gallery-img2">
-                        <img src="images/footer3.jpg" alt="gallery image 3" class="footer-gallery-img3">
-                        <img src="images/footer4.jfif" alt="gallery image 4" class="footer-gallery-img4">
-                    </div>
-                    </a>
-                </div>
-
-                <div class="footer-div">
-                    <br><br><br>
-                    <h1 class="footer-h1">LINKOVI</h1><br>
-                    <div class="footer-links">
-                        <a class="footer-link" href="#">Facebook</a><br><br>
-                        <a class="footer-link" href="#">Instagram</a><br><br>
-                        <a class="footer-link" href="#">Youtube</a><br><br>
-                        <a class="footer-link" href="#">Twitch</a><br><br>
-                    </div>
-                </div>
-
-                <div class="footer-div">
-                    <br><br><br>
-                    <h1 class="footer-h1">VIDEO KLIPOVI</h1><br>
-                    <div class="footer-video-player"></div>
-                </div>
-
+          <div class="footer-div">
+            <br /><br /><br />
+            <h1 class="footer-h1">LINKOVI</h1>
+            <br />
+            <div class="footer-links">
+              <a class="footer-link" href="#">Facebook</a><br /><br />
+              <a class="footer-link" href="#">Instagram</a><br /><br />
+              <a class="footer-link" href="#">Youtube</a><br /><br />
+              <a class="footer-link" href="#">Twitch</a><br /><br />
             </div>
-        </div>
+          </div>
 
-        <div class="footer-bottom">
-            <div class="footer-container">
-                <div class="footer-copyright">© 2021 BU-RP All rights reserved.</div>
-                <div class="footer-navbar">
-                    <ul class="footer-navbar-ul">
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Pocetna</a></li>
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">O nama</a></li>
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Galerija</a></li>
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Donator paketi</a></li>
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Novosti</a></li>
-                        <li class="footer-navbar-li"><a class="footer-nav-link" href="#">Kontakt</a></li>
-                    </ul>
-                </div>
-            </div>
+          <div class="footer-div">
+            <br /><br /><br />
+            <h1 class="footer-h1">VIDEO KLIPOVI</h1>
+            <br />
+            <div class="footer-video-player"></div>
+          </div>
         </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-container">
+          <div class="footer-copyright">© 2021 BU-RP All rights reserved.</div>
+          <div class="footer-navbar">
+            <ul class="footer-navbar-ul">
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">Pocetna</a>
+              </li>
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">O nama</a>
+              </li>
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">Galerija</a>
+              </li>
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">Donator paketi</a>
+              </li>
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">Novosti</a>
+              </li>
+              <li class="footer-navbar-li">
+                <a class="footer-nav-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="js/jquery-3.3.1.min.js"></script>
